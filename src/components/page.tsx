@@ -20,7 +20,7 @@ export function PageTransition({children}:MyComponentProps){
                 animate={{
                     opacity:0,
                     transition:{
-                        delay:1,
+                        delay:0.3,
                         duration:0.4,
                         ease: "easeInOut"
                     }
