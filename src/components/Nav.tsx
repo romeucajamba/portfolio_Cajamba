@@ -30,14 +30,13 @@ export function Nav() {
     const pathname = usePathname();
     
     return (
-        <nav>
+        <nav className="flex gap-8">
+           
             {links.map((link, index) => {
                 
                 return (
-                    <Link href={link.path} key={index}>
-                        
+                    <Link href={link.path} key={index} className={`${link.path === pathname && "text-accent border-b-2 border-accent"}capitalize font-medium hover:text-accent transition-all`}>
                             {link.name}
-                       
                     </Link>
                 );
             })}

@@ -15,15 +15,15 @@ export function Header(){
                     </h1>
                 </Link>
                 {/**Desktop nav */}
-                <div className="hidden xl:flex 2xl:flex items-center gap-8">
+                <div className="xl:flex xl:flex items-center gap-8 py-8 xl:py-12">
                     <Nav />
                     <Link href="contact">
                         <Button>estou aqui!</Button>
                     </Link>
                     
                 </div>
-                {}
-                <div className="xl:hidden 2xl:hidden">Mobile nav</div>
+                {/** */}
+                <div className="hidden xl:hidden 2xl:hidden py-8 xl:py-12">Mobile nav</div>
             </div>
         </header>
     )
