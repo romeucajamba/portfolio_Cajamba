@@ -17,11 +17,11 @@ const links = [
         path: '/resume'
     },
     {
-        name: 'work',
+        name: 'projectos',
         path: '/work'
     },
     {
-        name: 'contacto',
+        name: 'contactar',
         path: '/contact'
     },
 ];
