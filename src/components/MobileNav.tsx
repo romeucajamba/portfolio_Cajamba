@@ -51,7 +51,7 @@ export function MobileNav(){
                         links.map((link, index) => {
                             return(
                                 <Link href={link.path} key={index}
-                                    className={`${link.path === pathname && "text-accent border-b-2"}'text-xl capitalize hover:text-accent transition-all'`}
+                                    className={`${link.path === pathname && "text-accent border-b-2 border-accent"}'text-xl capitalize hover:text-accent transition-all'`}
                                 >
                                     {link.name}
                                 </Link>
