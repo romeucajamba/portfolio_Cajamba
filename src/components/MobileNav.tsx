@@ -36,8 +36,8 @@ export function MobileNav(){
             <SheetTrigger className='flex justify-center items-center'>
                 <CiMenuFries className="text-[32px] text-accent"/>
             </SheetTrigger>
-            <SheetContent className='flex flex-col'>
-                <div className='mt-28 mb-34 text-center text-2xl'>
+            <SheetContent className='flex flex-col items-center '>
+                <div className='mt-28 mb-34 text-center text-2xl mr-20 w-60'>
                     <Link href="/">
                         <h1 className='text-xl font-semibold'>
                             Romeu Cajamba
@@ -46,7 +46,7 @@ export function MobileNav(){
                     </Link>
                 </div>
 
-                <nav className='flex flex-col justify-center items-center gap-8 mt-8'>
+                <nav className='flex flex-col justify-center items-center gap-6 mt-6  mr-20'>
                     {
                         links.map((link, index) => {
                             return(
