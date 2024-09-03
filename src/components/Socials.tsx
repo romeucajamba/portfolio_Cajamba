@@ -3,10 +3,10 @@ import React from 'react';
 import { FaFacebook, FaGithub, FaLinkedin, FaWhatsapp } from 'react-icons/fa';
 
 const socials = [
-    {icon: <FaFacebook/>, path: ""},
-    {icon: <FaLinkedin/>},
-    {icon: <FaWhatsapp/>, path: ""},
-    {icon: <FaGithub/>, path: ""}
+    {icon: <FaFacebook/>, path: "https://www.facebook.com/romeucajamba.cajamba/"},
+    {icon: <FaLinkedin/>, path: "https://www.linkedin.com/in/romeu-cajamba-8a9294220/"},
+    {icon: <FaWhatsapp/>, path: "https://web.whatsapp.com/"},
+    {icon: <FaGithub/>, path: "https://github.com/romeucajamba"}
 ]
 
 const Socials = () => {

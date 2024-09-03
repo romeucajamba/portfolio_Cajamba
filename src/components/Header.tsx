@@ -5,7 +5,7 @@ import { MobileNav } from "./MobileNav";
 
 export function Header() {
     return (
-        <header className="py-4 xl:py-8 text-white bg-pink-50/20">
+        <header className="fixed top-0 left-0 w-full py-4 xl:py-8 text-white bg-pink-50/20 z-50">
             <div className="container mx-auto flex justify-between items-center">
                 
                 <Link href="/">
