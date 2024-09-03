@@ -10,13 +10,13 @@ export default function Home() {
         {/* Flex layout that is column on small screens and row on larger screens */}
         <div className="flex flex-col md:flex-row items-center justify-between space-y-8 md:space-y-0 md:space-x-8">
           <div className="text-center md:text-left order-2 md:order-none">
-            <span className="text-lg md:text-xl lg:text-2xl">Backend Developer</span>
-            <h1 className="text-2xl md:text-3xl lg:text-4xl mb-6">
+            <span className="text-2xl md:text-3xl lg:text-4xl mb-6">Backend Developer</span>
+            <h1 className="text-lg md:text-xl lg:text-2xl mb-6">
               Hello I am 
               <br/><span className="text-accent text-2xl md:text-3xl lg:text-4xl">Romeu Cajamba</span>
             </h1>
 
-            <p className="text-sm md:text-base lg:text-lg max-w-[500px] mb-9 text-white/80">
+            <p className="text-sm md:text-base lg:text-lg max-w-[500px] mb-6 text-white/80 ">
               As a backend developer, I specialize in creating efficient and reliable solutions 
               for complex systems. I am skilled in designing and implementing scalable backend 
               services that meet business needs. My focus is on delivering high-quality, 
@@ -30,15 +30,15 @@ export default function Home() {
                   <FiDownload/>
               </Button>
 
-              <div className="flex sm:flex-col md:flex-row sm:items-center sm:justify-center xl:flex-row gap-4 mb-8 md:mb-0 w-60 bg-red-500">
+              <div className="flex sm:flex-col md:flex-row sm:items-center sm:justify-center xl:flex-row gap-4 mb-8 md:mb-0 w-60">
                 <Socials/>              
               </div>
             </div>
           </div>
 
-          <div className="order-1 md:order-none mb-8 md:mb-0">
+         { /*<div className="order-1 md:order-none mb-8 md:mb-0">
             <Photo/>
-          </div>
+          </div>*/}
         </div>
       </div>
     </section>
