@@ -25,7 +25,7 @@ const Photo = () => {
                     duration: 0.4,
                         ease: "easeInOut"}}}
 
-                    className="w-[350px] h-[350px] xl:w-[498px] xl:h-[498px] md:w-[350px] md:h-[350px] sm:w-[200px] sm:h-[200px] sm:mt-20 mix-blend-lighten">
+                    className="w-[350px] h-[350px] xl:w-[498px] xl:h-[498px] md:w-[350px] md:h-[350px] sm:w-[100px] sm:h-[100px] sm:mt-20 mix-blend-lighten">
                     <Image src={RomeuPhoto} priority quality={100} fill alt="photo" 
                     className="obejct-contain"
                     />
