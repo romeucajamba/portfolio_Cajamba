@@ -21,13 +21,19 @@ const Photo = () => {
                     initial={{opacity: 0}}
                     animate={{ opacity: 1,
                     transition: {
-                    delay: 2,
-                    duration: 0.4,
-                        ease: "easeInOut"}}}
-
-                    className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten">
-                    <Image src={RomeuPhoto} priority quality={100} fill alt="photo" 
-                    className="obejct-contain"
+                        delay: 2,
+                        duration: 0.4,
+                        ease: "easeInOut"
+                    }}}
+                    className="w-[250px] h-[250px] md:w-[350px] md:h-[350px] xl:w-[498px] xl:h-[498px] mix-blend-lighten"
+               >
+                    <Image 
+                        src={RomeuPhoto} 
+                        priority 
+                        quality={100} 
+                        fill 
+                        alt="photo" 
+                        className="object-cover" // Note that the correct class is 'object-cover' instead of 'obejct-contain'
                     />
                </motion.div>
             </motion.div>
