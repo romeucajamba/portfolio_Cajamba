@@ -30,7 +30,7 @@ export default function Home() {
                   <FiDownload/>
               </Button>
 
-              <div className="flex sm:flex-col md:flex-row sm:items-center sm:justify-center  xl:flex-row gap-4 mb-8 md:mb-0 w-40 ">
+              <div className="flex sm:flex-col md:flex-row sm:items-center sm:justify-center xl:flex-row gap-4 mb-8 md:mb-0 w-60 bg-red-500">
                 <Socials/>              
               </div>
             </div>
