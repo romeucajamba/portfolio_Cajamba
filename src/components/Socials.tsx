@@ -11,7 +11,7 @@ const socials = [
 
 const Socials = () => {
   return (
-    <div>
+    <div className='flex sm:flex-col md:flex-row xl:flex-row'>
         {socials.map(social => (
           <a 
             key={social.path} 
