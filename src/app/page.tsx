@@ -1,17 +1,17 @@
 import { Button } from "@/components/ui/button";
 import { FiDownload } from 'react-icons/fi';
 import Socials from "../components/Socials";
-import Photo from "../components/Photo";
+import Status from "../components/Status";
 
 export default function Home() {
   return (
-    <section className="h-screen flex items-center">
+    <section className="h-screen flex mt-20">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         {/* Flex layout that is column on small screens and row on larger screens */}
         <div className="flex flex-col md:flex-row items-center justify-between space-y-8 md:space-y-0 md:space-x-8">
-          <div className="text-center md:text-left order-2 md:order-none">
-            <span className="text-2xl md:text-3xl lg:text-4xl mb-6">Backend Developer</span>
-            <h1 className="text-lg md:text-xl lg:text-2xl mb-6">
+          <div className="text-center md:text-left">
+            <span className="text-2xl md:text-3xl lg:text-4xl">Backend Developer</span>
+            <h1 className="text-lg md:text-xl lg:text-2xl mb-6 mt-4">
               Hello I am 
               <br/><span className="text-accent text-2xl md:text-3xl lg:text-4xl">Romeu Cajamba</span>
             </h1>
@@ -36,11 +36,12 @@ export default function Home() {
             </div>
           </div>
 
-         { /*<div className="order-1 md:order-none mb-8 md:mb-0">
-            <Photo/>
-          </div>*/}
+          <div>
+            <Status/>
+            </div>
         </div>
       </div>
+      
     </section>
   );
 }
