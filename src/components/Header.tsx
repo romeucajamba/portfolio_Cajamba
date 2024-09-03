@@ -16,15 +16,17 @@ export function Header(){
                     </h1>
                 </Link>
                 
-                <div className="2xl:flex xl:flex items-center gap-8 py-4 xl:py-8">
+                <div className="hidden xl:flex items-center gap-8 py-4 xl:py-8">
                     <Nav />
-                    <Link href="contact">
+                    <Link href="/contact">
                         <Button>estou aqui!</Button>
                     </Link>
                     
                 </div>
                
-                <div className="xl:hidden 2xl:hidden"><MobileNav/></div>
+                <div className="xl:hidden">
+                    <MobileNav/>
+                </div>
             </div>
         </header>
     )
