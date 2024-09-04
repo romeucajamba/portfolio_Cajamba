@@ -1,7 +1,8 @@
+"use client"
 import React from 'react';
+import { motion } from 'framer-motion';
+import { Swiper, SwiperSlide } from "s"
 
-
-// import { Container } from './styles';
 
 export default function Work(){
   return(
