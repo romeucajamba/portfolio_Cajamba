@@ -4,7 +4,6 @@ import Link from 'next/link';
 import { BsArrowRight} from "react-icons/bs";
 import { motion } from 'framer-motion';
 
-
 const services = [
   {
     num: '01',
@@ -55,9 +54,22 @@ export default function Services(){
                 transition: { delay: 2.4, duration: 0.4, ease: "easeIn"}
               }}
             >
-               {/* {services.map((services, index) =< {
-                  
-                })} */}
+                {services.map((services, index) => {
+                  return (
+                     <div key={index}>
+                        <div>
+                            <div>{services.num}</div>
+                            <Link href={services.href}>
+                                <BsArrowRight/>
+                            </Link>
+                        </div>
+
+                        <h2>{services.title}</h2>
+                        <p>{services.description}</p>
+                        <div className="border-b border-white/20 w-full"></div>
+                     </div>
+                  )
+                })} 
             </motion.div>
         </div>
     </section>
