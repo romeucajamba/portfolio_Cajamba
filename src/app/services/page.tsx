@@ -8,37 +8,37 @@ const services = [
   {
     num: '01',
     title: 'Frontend Development',
-    description: 'Página para transação, entrada e saída de bens em dinheiro',
+    description: 'Página para transação, entrada e saída de bens.',
     href: ""
   },
   {
     num: '02',
-    title: 'Frontend Development',
-    description: 'Página para transação, entrada e saída de bens em dinheiro',
+    title: 'Backend Development',
+    description: 'API de academia para registro de usuários de acordo a distância.',
     href: ""
   },
   {
     num: '03',
-    title: 'Backen Development',
-    description: 'Página para transação, entrada e saída de bens em dinheiro',
+    title: 'Backend Development',
+    description: 'API para transação, entrada e saída de dinheiro.',
     href: ""
   },
   {
     num: '04',
     title: 'Backend Development',
-    description: 'Página para transação, entrada e saída de bens em dinheiro',
+    description: 'API para rede social de estudantes de programação.',
     href: ""
   },
   {
     num: '05',
-    title: 'Backend Development',
-    description: 'Página para transação, entrada e saída de bens em dinheiro',
+    title: 'Frontend Development',
+    description: 'Página de posts.',
     href: ""
   },
   {
     num: '06',
     title: 'Mobile Development',
-    description: 'Página para transação, entrada e saída de bens em dinheiro',
+    description: 'Bibliotec digital para dispositivos android.',
     href: ""
   }
 ]
@@ -53,12 +53,13 @@ export default function Services(){
                 opacity: 1,
                 transition: { delay: 2.4, duration: 0.4, ease: "easeIn"}
               }}
+              className="grid grid-cols-1 md:grid-cols-2 gap-[60px]"
             >
                 {services.map((services, index) => {
                   return (
-                     <div key={index}>
-                        <div>
-                            <div>{services.num}</div>
+                     <div key={index} className="flex-1 flex flex-col justify-center gap-6 group">
+                        <div className="w-full flex justify-between items-center">
+                            <div className="text-5xl font-extrabold text-outline text-transparent group-hover:text-outline-hover">{services.num}</div>
                             <Link href={services.href}>
                                 <BsArrowRight/>
                             </Link>
