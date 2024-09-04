@@ -8,44 +8,26 @@ const services = [
   {
     num: '01',
     title: 'Frontend Development',
-    description: 'Página para transação, entrada e saída de bens.',
-    href: "https://transitions-indol.vercel.app/"
+    description: 'Design of responsive, intuitive, and high-performance interfaces.',
+    href: "/contact"
   },
   {
     num: '02',
     title: 'Backend Development',
-    description: 'API de academia para registro de usuários de acordo a distância.',
-    href: "https://github.com/romeucajamba/academy"
+    description: 'Building a robust backend app ensures efficient data management and seamless communication between the frontend and server.',
+    href: "/contact"
   },
   {
     num: '03',
-    title: 'Backend Development',
-    description: 'API para transação, entrada e saída de dinheiro.',
-    href: "https://bank-transaction-6.onrender.com"
-  },
-  {
-    num: '04',
-    title: 'Backend Development',
-    description: 'API para rede social de estudantes de programação.',
-    href: "https://github.com/romeucajamba/api_yhanko_educational"
-  },
-  {
-    num: '05',
-    title: 'Frontend Development',
-    description: 'Página de posts.',
-    href: "https://postagens-r6p5.onrender.com"
-  },
-  {
-    num: '06',
     title: 'Mobile Development',
-    description: 'Bibliotec digital para dispositivos android.',
-    href: "https://github.com/romeucajamba/BiblioGest"
+    description: 'Developing a mobile app offers users a smooth, intuitive experience on their smartphones, tailored to their needs.',
+    href: "/contact"
   },
   {
-    num: '7',
-    title: 'Frontend Development',
-    description: 'Página para gerenciamento de participanetes',
-    href: 'https://event-manager-inky.vercel.app/'
+    num: '4',
+    title: 'Desktop Development',
+    description: 'Desktop application development allows for feature-rich, powerful software, ideal for complex tasks on PCs',
+    href: '/contact'
   }
 ]
 
