@@ -10,9 +10,7 @@ import { motion } from "framer-motion"
 
 const about = {
   title: "About me",
-  description: `sdfaaaaaaaaaaaaajkdjkjkuivf
-      89gru89y89g895ujkjkgfjkfjkrjklrjkfjkl
-      dfsuiweruioeruierhjdhjfdjkfjkfjkdfjkf`,
+  description: `Here is some relevant information about me`,
   info: [
     {
       fieldName: "Name",
@@ -53,7 +51,7 @@ const about = {
 const experience = {
   icon: '../../public/assets/resume/',
   title:"My experience",
-  description: `hjdhhjdfhjsdfsdfjkdfjkldfjkldfjkldfnkdfnmdfnmdfjkdfjkdf`,
+  description: `Here is some relevant information about my experience like developer`,
 
   items: [
     {
@@ -82,7 +80,7 @@ const experience = {
 const education = {
   icon: '../../public/assets/resume/',
   title: "My education",
-  description: "hjsdhjdfjkdfjkldfklsdflçdfkldfdfjkldfjklgfjklgfkl",
+  description: "Here is some relevent information abou my education and course",
   items:[
     {
       institution: "Lusiada University of Angola",
@@ -106,7 +104,7 @@ const education = {
 
 const skills = {
   title: "My skills",
-  description: "hjsdhjdjidfhjdfhjdfjdfjkdfjkadfjkadfndfdfjk",
+  description: "Here are the technologies I frequently use",
   skillslist:[
     {
       icon: <FaHtml5/>,
@@ -276,8 +274,23 @@ export default function Resume(){
                       </div>
                   </TabsContent>
 
-                  <TabsContent value="about" className='w-full'>
-                     about
+                  <TabsContent value="about" className='w-full text-center xl:text-left'>
+                     <div className='flex flex-col gap-[30px]'>
+                        <h3 className='text-4xl font-bold'>{about.title}</h3>
+                        <p className='max-w-[600px] text-white/60 mx-auto xl:mx-0'>{about.description}</p>
+                        <ul className='grid grid-cols-1 xl:grid-cols-2 gap-y-6 max-w-[620px] mx-auto xl:mx-0'>
+                          {
+                            about.info.map((item, index) => {
+                              return (
+                                 <li key={index} className='flex items-center justify-center xl:justify-start gap-4'>
+                                    <span className='text-white/60'>{item.fieldName}</span>
+                                    <span className='text-xl'>{item.fiedlValue}</span>
+                                 </li>
+                              )
+                            })
+                          }
+                        </ul>
+                     </div>
                   </TabsContent>
               </div>
           </Tabs>
