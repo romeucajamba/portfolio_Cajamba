@@ -9,37 +9,43 @@ const services = [
     num: '01',
     title: 'Frontend Development',
     description: 'Página para transação, entrada e saída de bens.',
-    href: ""
+    href: "https://transitions-indol.vercel.app/"
   },
   {
     num: '02',
     title: 'Backend Development',
     description: 'API de academia para registro de usuários de acordo a distância.',
-    href: ""
+    href: "https://github.com/romeucajamba/academy"
   },
   {
     num: '03',
     title: 'Backend Development',
     description: 'API para transação, entrada e saída de dinheiro.',
-    href: ""
+    href: "https://bank-transaction-6.onrender.com"
   },
   {
     num: '04',
     title: 'Backend Development',
     description: 'API para rede social de estudantes de programação.',
-    href: ""
+    href: "https://github.com/romeucajamba/api_yhanko_educational"
   },
   {
     num: '05',
     title: 'Frontend Development',
     description: 'Página de posts.',
-    href: ""
+    href: "https://postagens-r6p5.onrender.com"
   },
   {
     num: '06',
     title: 'Mobile Development',
     description: 'Bibliotec digital para dispositivos android.',
-    href: ""
+    href: "https://github.com/romeucajamba/BiblioGest"
+  },
+  {
+    num: '7',
+    title: 'Frontend Development',
+    description: 'Página para gerenciamento de participanetes',
+    href: 'https://event-manager-inky.vercel.app/'
   }
 ]
 
