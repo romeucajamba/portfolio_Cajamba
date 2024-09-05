@@ -108,7 +108,7 @@ export default function Work(){
       <div className='container mx-auto'>
         <div className='flex flex-col xl:flex-row xl:gap-[30px]'>
           {/* Informações do projeto */}
-          <div className='w-full xl:w-[50%] xl:h-[460px] flex flex-col xl:justify-between order-2 xl:order-none'>
+          <div className='w-full xl:w-[50%] xl:h-[460px] 2xl:h-[460px] flex flex-col xl:justify-between 2xl:justify-between order-2 xl:order-none'>
             <div className='flex flex-col gap-[30px] h-[50%]'>
               <div className='text-8xl leading-none font-extrabold text-transparent text-outline'>{project.num}</div>
               <h2 className='text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize'>
@@ -145,7 +145,7 @@ export default function Work(){
                         <BsGithub className='text-white text-3xl group-hover:text-accent' />
                       </TooltipTrigger>
                       <TooltipContent>
-                        <p>GitHub repository</p>
+                        <p>Github repository</p>
                       </TooltipContent>
                     </Tooltip>
                   </TooltipProvider>
