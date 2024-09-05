@@ -36,7 +36,7 @@ const projects = [
       { name: "Typescript"},
     ],
     image: '/work/TelaPrincipal.png',
-    live: "",
+    live: "https://github.com/romeucajamba/BiblioGest",
     github: "https://github.com/romeucajamba/BiblioGest"
   },
   {

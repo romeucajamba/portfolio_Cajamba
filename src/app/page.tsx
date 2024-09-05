@@ -8,15 +8,15 @@ export default function Home() {
     <section className="h-screen flex mt-20">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         {/* Flex layout that is column on small screens and row on larger screens */}
-        <div className="flex flex-col md:flex-row items-center justify-between space-y-8 md:space-y-0 md:space-x-8">
-          <div className="text-center md:text-left">
+        <div className="flex flex-col md:flex-col items-center justify-between space-y-8 md:space-y-16 md:space-x-8">
+          <div className="text-center">
             <span className="text-2xl md:text-3xl lg:text-4xl">Backend Developer</span>
             <h1 className="text-lg md:text-xl lg:text-2xl mb-6 mt-4">
               Hello I am 
               <br/><span className="text-accent text-2xl md:text-3xl lg:text-4xl">Romeu Cajamba</span>
             </h1>
 
-            <p className="text-sm md:text-base lg:text-lg max-w-[500px] mb-6 text-white/80 ">
+            <p className="text-sm md:text-md lg:text-lg max-w-[700px] mb-6 text-white/80 ">
               As a backend developer, I specialize in creating efficient and reliable solutions 
               for complex systems. I am skilled in designing and implementing scalable backend 
               services that meet business needs. My focus is on delivering high-quality, 
