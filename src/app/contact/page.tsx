@@ -16,7 +16,7 @@ const contacts = [
   },
   {
     icon: <FaEnvelope/>,
-    title: "Eamil",
+    title: "Email",
     description:"romeucajamba@gmail.com",
 
   },
@@ -62,10 +62,29 @@ export default function Contact(){
                       </SelectGroup>
                   </SelectContent>
               </Select>
+
+              <Textarea className='h-[200px]' placeholder='type your message here'/>
+
+              <Button size="md" className='max-w-40 bg-accent text-primary font-bold'>Send message</Button>
           </form>
         </div>
 
-        <div className='flex-1 flex items-center xl:justify-end 2xl:justify-end order-1 xl:order-none mb-8 xl:mb-0'>info</div>
+        <div className='flex-1 flex items-center xl:justify-end  order-1 xl:order-none mb-8 xl:mb-0'>
+            <ul className='flex flex-col gap-10'>
+              {contacts.map((item, index) => {
+                return (<li key={index} className='flex items-center gap-6'>
+                  <div className='w-[52px] h-[52px] xl:w-[72px] xl:h-[72px] bg-[#27272c] text-accent rounded-md flex items-center justify-center'>
+                    <div>{item.icon}</div>
+                  </div>
+
+                  <div className='flex-1'>
+                    <p className='text-white/60'>{item.title}</p>
+                    <h3>{item.description}</h3>
+                  </div>
+                </li>)
+              })}
+            </ul>
+        </div>
       </div>
     </div>
   </motion.section>
