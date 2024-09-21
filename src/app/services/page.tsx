@@ -23,12 +23,6 @@ const services = [
     description: 'Developing a mobile app offers users a smooth, intuitive experience on their smartphones, tailored to their needs.',
     href: "/contact"
   },
-  {
-    num: '4',
-    title: 'Desktop Development',
-    description: 'Desktop application development allows for feature-rich, powerful software, ideal for complex tasks on PCs',
-    href: '/contact'
-  }
 ]
 
 export default function Services(){

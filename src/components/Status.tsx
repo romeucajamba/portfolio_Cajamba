@@ -14,10 +14,6 @@ const status = [
         num: 7,
         text: "Tecnologies mastered"
     },
-    {
-        num: 300,
-        text: "Code commits"
-    },
 ]
 
 const Status = () =>{

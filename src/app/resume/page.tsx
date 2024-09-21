@@ -62,7 +62,7 @@ const experience = {
     {
       company: "Ocaso",
       position: "Backend Developer",
-      duration: "2 month"
+      duration: "3 month"
     },
     {
       company: "AngoVerso",
@@ -73,6 +73,11 @@ const experience = {
       company: "Yhanko Startup",
       position: "Backend Developer",
       duration: "2023 - Present"
+    },
+    {
+      company: "YetuEdu",
+      position: "Backend Developer",
+      duration: "2024 - Present"
     }
   ]
 }
