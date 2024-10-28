@@ -25,7 +25,7 @@ export default function Home() {
             </p>
 
             <div className="flex flex-col md:flex-row items-center gap-8">
-             <a href="/Currículo_Backend.pdf" download className="no-underline">
+             <a href="/Currículo_Bacpdf" download className="no-underline">
                 <Button className="uppercase flex items-center gap-2 bg-transparent border-accent text-sm md:text-base" size="md" variant="outline">
                   <span>Download CV</span>
                   <FiDownload />
