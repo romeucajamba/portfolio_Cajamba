@@ -22,7 +22,7 @@ const about = {
     },
     {
       fieldName: "Expreience",
-      fiedlValue: "+2 Years"
+      fiedlValue: "+3 Years"
     },
     {
       fieldName: "Nationality",
