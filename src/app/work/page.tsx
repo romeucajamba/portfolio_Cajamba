@@ -37,9 +37,9 @@ const projects = [
       { name: "Socket"},
       { name: "Zod"},
     ],
-    image: '/work/TelaPrincipal.png',
+    image: '/work/documentation.png',
     live: "https://fluency-hub-api.onrender.com/documentation",
-    github: "https://github.com/romeucajamba?tab=repositories"
+    github: "https://github.com/Yhanko/fluency_hub-api"
   },
   {
     num: '03',
