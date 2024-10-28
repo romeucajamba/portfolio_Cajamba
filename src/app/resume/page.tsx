@@ -57,22 +57,17 @@ const experience = {
     {
       company: "Global Service Corporation",
       position: "Backend Developer",
-      duration: "8 month"
+      duration: "2022 - 2024"
     },
     {
       company: "Ocaso",
       position: "Backend Developer",
-      duration: "3 month"
+      duration: "2023 - 2024"
     },
     {
       company: "AngoVerso",
       position: "Mobile Developer",
-      duration: "2023 - Present"
-    },
-    {
-      company: "Yhanko Startup",
-      position: "Backend Developer",
-      duration: "2023 - Present"
+      duration: "2021 - 2024"
     },
     {
       company: "YetuEdu",

@@ -15,29 +15,31 @@ const projects = [
     num: '01',
     category: 'Frontend',
     title: 'project 1',
-    Description: 'Spitfy clone interface',
+    Description: 'Linguage school',
     stack: [
       { name: "HTML5"},
       { name: "TailwindCSS"},
       { name: "ReactJs"},
       { name: "Typescript"},
     ],
-    image: '/work/spotfy2.png',
-    live: "https://spotify-interface-mauve.vercel.app/",
-    github: "https://github.com/romeucajamba/SpotifyInterface"
+    image: '/work/spotfy1.png',
+    live: "https://fluencyhub-p7zo8cz4h-romeucajambas-projects.vercel.app/",
+    github: ""
   },
   {
     num: '02',
-    category: 'Mobile',
+    category: 'Backend',
     title: 'project 2',
-    Description: 'Mobile app for library',
+    Description: 'Social network YhankoET',
     stack: [
-      { name: "React Native"},
+      { name: "Fastify"},
       { name: "Typescript"},
+      { name: "Socket"},
+      { name: "Zod"},
     ],
     image: '/work/TelaPrincipal.png',
-    live: "https://github.com/romeucajamba/BiblioGest",
-    github: "https://github.com/romeucajamba/BiblioGest"
+    live: "https://fluency-hub-api.onrender.com/documentation",
+    github: "https://github.com/romeucajamba/api_yhanko_educational"
   },
   {
     num: '03',
@@ -83,6 +85,20 @@ const projects = [
     image: '/work/transaction.png',
     live: "https://transitions-indol.vercel.app/",
     github: "https://github.com/romeucajamba/transitions"
+  },
+    {
+    num: '06',
+    category: 'Backend',
+    title: 'project 5',
+    Description: 'Academy API',
+    stack: [
+      { name: "TypeScript"},
+      { name: "NodeJs"},
+      { name: "Fastify"}
+    ],
+    image: '/work/serachById.png',
+    live: "https://github.com/romeucajamba/academy",
+    github: "https://github.com/romeucajamba/academy"
   },
 ];
 
