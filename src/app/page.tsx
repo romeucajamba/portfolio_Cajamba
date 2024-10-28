@@ -20,7 +20,7 @@ export default function Home() {
               As a backend developer, I specialize in creating efficient and reliable solutions for 
               complex systems. I am skilled in designing and implementing scalable backend services 
               that meet business needs. Additionally, I possess expertise and knowledge in frontend 
-              and mobile development, enabling me to create cohesive and user-friendly interfaces. My focus is on delivering 
+               development, enabling me to create cohesive and user-friendly interfaces. My focus is on delivering 
               high-quality, well-structured code that ensures robust performance and seamless integration with various systems.
             </p>
 
