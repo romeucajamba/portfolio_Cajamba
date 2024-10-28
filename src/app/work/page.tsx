@@ -22,8 +22,8 @@ const projects = [
       { name: "ReactJs"},
       { name: "Typescript"},
     ],
-    image: '/work/spotfy2.png',
-    live: "https://spotify-interface-mauve.vercel.app/",
+    image: '/work/spotfy1.png',
+    live: "https://fluencyhub-p7zo8cz4h-romeucajambas-projects.vercel.app/",
     github: "https://github.com/romeucajamba/SpotifyInterface"
   },
   {
@@ -38,8 +38,8 @@ const projects = [
       { name: "Zod"},
     ],
     image: '/work/TelaPrincipal.png',
-    live: "https://github.com/romeucajamba/BiblioGest",
-    github: "https://github.com/romeucajamba/BiblioGest"
+    live: "https://fluency-hub-api.onrender.com/documentation",
+    github: "https://github.com/romeucajamba?tab=repositories"
   },
   {
     num: '03',
