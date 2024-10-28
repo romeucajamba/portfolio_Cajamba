@@ -70,11 +70,6 @@ const experience = {
       duration: "2022 - 2024"
     },
     {
-      company: "Yhanko Startup",
-      position: "Backend Developer",
-      duration: "2023 - Present"
-    },
-    {
       company: "YetuEdu",
       position: "Backend Developer",
       duration: "2020 - 2024"
