@@ -22,7 +22,7 @@ const about = {
     },
     {
       fieldName: "Expreience",
-      fiedlValue: "+2 Years"
+      fiedlValue: "+3 Years"
     },
     {
       fieldName: "Nationality",
@@ -62,17 +62,25 @@ const experience = {
     {
       company: "Ocaso",
       position: "Backend Developer",
+<<<<<<< HEAD
       duration: "2023 - 2024"
+=======
+      duration: "2021 - 2024"
+>>>>>>> 270f45da02305666ffdd27a7af130420d599769e
     },
     {
       company: "AngoVerso",
       position: "Mobile Developer",
+<<<<<<< HEAD
       duration: "2021 - 2024"
+=======
+      duration: "2022 - 2024"
+>>>>>>> 270f45da02305666ffdd27a7af130420d599769e
     },
     {
       company: "YetuEdu",
       position: "Backend Developer",
-      duration: "2024 - Present"
+      duration: "2020 - 2024"
     }
   ]
 }
